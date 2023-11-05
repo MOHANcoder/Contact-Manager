@@ -1,0 +1,42 @@
+body {
+    
+}
+
+h1{
+    text-align:center;
+}
+
+.add-form{
+    display:flex;
+    width:95vw;
+    margin-top:10vh;
+    justify-content:space-around;
+    column-gap:60px;
+}
+
+.contactList ul{
+    list-style-type:none;
+    list-style-position:inside;
+    word-wrap:break-word;
+    border:1px solid;
+    padding-bottom:2vh;
+    height:50vh;
+    overflow-y:scroll;
+}
+
+.contactList li{
+    background-color:lightblue;
+    width:90%;
+    /*border:1px solid;*/
+    margin-top:2vh;
+    text-align:left;
+}
+
+.crossButton{
+   background:white;
+   color:red;
+}
+
+.contactName{
+    margin-left:2vw;
+}
